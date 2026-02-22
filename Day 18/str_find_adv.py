@@ -1,4 +1,4 @@
-str1 = "Leo Messi"
+str1 = "Virat Kohli"
 ch = input("Enter character to find: ")
 
 index = str1.find(ch)
@@ -6,6 +6,7 @@ index = str1.find(ch)
 while index != -1:
     print("Found at index:", index)
     index = str1.find(ch, index + 1)
+
 
 
 
