@@ -1,4 +1,4 @@
-numbers = [10, 20, 30, 20, 40, 10, 50]
+numbers = [10, 20, 30, 20, 10, 50]
 
 # Method 1: Using set()
 remove_set = list(set(numbers))
@@ -13,3 +13,4 @@ for num in numbers:
 print("Original List :", numbers)
 print("Using set() :", remove_set)
 print("Without changing order :", remove_order)
+
